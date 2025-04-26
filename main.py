@@ -21,6 +21,10 @@ response = requests.post(
             {
                 "role": "user",
                 "content": "What is the meaning of life?"
+            }, 
+            {
+                "role": "system",
+                "content": "You are a poetic assistant, skilled in explaining the complex life question with a creative flair"
             }
         ],
     })
